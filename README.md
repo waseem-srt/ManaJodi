@@ -1,48 +1,88 @@
-# Mana Jodi - Telugu Matrimony Web App (Front-End MVP)
+# 💖 Mana Jodi - Telugu Matrimony Web App (Front-End MVP) 💙
 
 ![Mana Jodi Banner](https://via.placeholder.com/1200x300?text=Mana+Jodi)
 
-**Mana Jodi** is a full-fledged front-end MVP for a Telugu-focused matrimonial web app. It is heavily inspired by Shaadi.com and designed as a gamified, interactive, and immersive user experience. This project focuses entirely on the front-end, providing a visually rich and engaging MVP with dummy data.
+**Mana Jodi** is a **gamified, interactive, front-end MVP** for a Telugu-focused matrimonial web app, inspired by Shaadi.com. Designed to simulate a full-stack experience, this MVP focuses on **auth, dummy profiles, gamification, and localization**.  
 
 ---
 
-## 💡 Key Features
+## 🌟 Features
 
-### Gamified Onboarding Quiz
-- Immediately after login, users take a **fun quiz** to determine their preferences.
-- Quiz-based interaction matches users with potential partners.
+### 🎯 Gamified Onboarding Quiz
+- Users take a **fun, interactive quiz** immediately after login.
+- Quiz helps **match users** with their ideal partners.
+- ✅ Gamified experience makes onboarding **engaging and fun**.
 
-### Interactive Home Page
-- Profiles displayed in **cards** with like, shortlist, and reject options.
-- Supports **dark mode** toggle.
-- **Gender-based themes**: pink for female, sky blue for male.
+### 🏠 Interactive Home Page
+- **Profile cards** with like, shortlist, reject buttons.  
+- **Dark Mode toggle** for personalized viewing.  
+- Gender-based themes:
+  - Pink 💖 for female users  
+  - Sky Blue 💙 for male users  
+- Responsive and visually appealing UI.  
 
-### Localization & Language Support
-- Fully supports **Telugu language**.
-- Users can switch between languages easily.
+### 🌐 Localization & Language Support
+- Full support for **Telugu language**.  
+- Easy **language switcher** for user convenience.  
 
-### Dummy Data & Interactivity
-- Includes **30+ dummy Telugu profiles** to simulate real interactions.
-- Profiles include name, age, location, interests, and image placeholders.
-- Gamified experience to engage users without needing backend integration.
+### 📊 Dummy Data & Interactivity
+- 30+ **dummy Telugu profiles** with names, age, interests, locations, and images.  
+- Profiles are **interactive** to simulate real platform behavior.  
+- **Gamified user engagement** without requiring backend.  
 
-### Modern Front-End
-- Built with **React + TypeScript (TSX)**.
-- Clean component-based architecture.
-- Responsive and visually appealing UI.
-- Animations for landing page and profile interactions.
-
----
-
-## 🎨 Tech Stack
-
-- **React** with **TypeScript (TSX)**
-- **CSS / SCSS** for styling and themes
-- **React Router** for navigation
-- **Context API** for global state management
-- Dummy data in **TS modules** for instant interactivity
+### 💻 Modern Front-End Stack
+- **React + TypeScript (TSX)**  
+- **CSS/SCSS** for animations, themes, and responsive design  
+- **React Router** for navigation  
+- **Context API** for global state management  
 
 ---
 
 ## 📂 Project Structure
 
+mana-jodi-frontend/
+│
+├─ public/
+├─ src/
+│ ├─ components/
+│ │ ├─ Header.tsx
+│ │ ├─ Footer.tsx
+│ │ ├─ ProfileCard.tsx
+│ │ ├─ Quiz.tsx
+│ │ ├─ DarkModeToggle.tsx
+│ │ └─ LanguageSwitcher.tsx
+│ │
+│ ├─ pages/
+│ │ ├─ LandingPage.tsx
+│ │ ├─ Register.tsx
+│ │ ├─ Login.tsx
+│ │ └─ Home.tsx
+│ │
+│ ├─ data/
+│ │ └─ dummyProfiles.ts
+│ │
+│ ├─ context/
+│ │ └─ AppContext.tsx
+│ │
+│ ├─ App.tsx
+│ └─ index.tsx
+├─ package.json
+└─ tsconfig.json
+
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **Node.js >= 18.x**  
+- **npm >= 9.x**  
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/mana-jodi.git
+cd mana-jodi-frontend
+npm install
+npm run dev
