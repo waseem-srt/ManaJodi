@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Mana Jodi - Telugu Matrimony Web App (Front-End MVP)
 
-# Run and deploy your AI Studio app
+![Mana Jodi Banner](https://via.placeholder.com/1200x300?text=Mana+Jodi)
 
-This contains everything you need to run your app locally.
+**Mana Jodi** is a full-fledged front-end MVP for a Telugu-focused matrimonial web app. It is heavily inspired by Shaadi.com and designed as a gamified, interactive, and immersive user experience. This project focuses entirely on the front-end, providing a visually rich and engaging MVP with dummy data.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1VLcA8SQ5RP5rRQ4xpp2Gs8JYJLGxI-9O
+---
 
-## Run Locally
+## 💡 Key Features
 
-**Prerequisites:**  Node.js
+### Gamified Onboarding Quiz
+- Immediately after login, users take a **fun quiz** to determine their preferences.
+- Quiz-based interaction matches users with potential partners.
 
+### Interactive Home Page
+- Profiles displayed in **cards** with like, shortlist, and reject options.
+- Supports **dark mode** toggle.
+- **Gender-based themes**: pink for female, sky blue for male.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Localization & Language Support
+- Fully supports **Telugu language**.
+- Users can switch between languages easily.
+
+### Dummy Data & Interactivity
+- Includes **30+ dummy Telugu profiles** to simulate real interactions.
+- Profiles include name, age, location, interests, and image placeholders.
+- Gamified experience to engage users without needing backend integration.
+
+### Modern Front-End
+- Built with **React + TypeScript (TSX)**.
+- Clean component-based architecture.
+- Responsive and visually appealing UI.
+- Animations for landing page and profile interactions.
+
+---
+
+## 🎨 Tech Stack
+
+- **React** with **TypeScript (TSX)**
+- **CSS / SCSS** for styling and themes
+- **React Router** for navigation
+- **Context API** for global state management
+- Dummy data in **TS modules** for instant interactivity
+
+---
+
+## 📂 Project Structure
+
